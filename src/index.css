@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root { height: 100%; }
+body { font-family: "Plus Jakarta Sans", system-ui, sans-serif; color: #1d1530; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+summary::-webkit-details-marker { display: none; }
